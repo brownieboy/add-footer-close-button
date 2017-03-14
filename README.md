@@ -4,5 +4,5 @@ I'm a big fan of the Medium publishing platform, but hate the way that it (and i
 
 So, I put together this Chrome extension to add a button that hides that footer bar whenever it detects one.  That's all it does.  There's no options.
 
-It currently works on medium.com itself, and also hackernoon.com.  I'll add more offshot sites as I come across them.  (It's just a matter of updating a permissions file.)
+It currently works on medium.com itself, and also hackernoon.com.  I'll add more offshoot sites as I come across them.  (It's just a matter of updating a permissions file.)
 
