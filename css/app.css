@@ -1,0 +1,36 @@
+.trollWrapper {
+	border: solid 1px lightgrey;
+	background: #fafafa;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.aTrollPeek {
+	color: #005399;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.aTrollPeek:visited {
+	color: #005399;
+}
+
+.aTrollPeek:hover {
+	color: #005399;
+	text-decoration: underline;
+}
+
+.spanBlocked {
+	font-size: 90%;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.spanBlocked img {
+	margin-right: 5px;
+}
+
+.trollWrapper .spanBlocked .smallTrollBlockImage {
+	width: 19px;
+	height: 19px;
+}
