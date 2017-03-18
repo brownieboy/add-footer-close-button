@@ -1,0 +1,38 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-tabs": 0,
+    "indent": "off",
+    "func-style": [
+      2,
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "semi": 2,
+    "valid-jsdoc": [
+      2,
+      {
+        "prefer": {
+          "return": "return"
+        }
+      }
+    ]
+  }
+}

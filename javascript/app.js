@@ -5,15 +5,15 @@
  */
 
 $(function() {
-	var $bottomBar = $(".u-fixed.u-bottom0");
-	if($bottomBar.length > 0) {
-		var $bottomBarFirstChild = $bottomBar.find(">:first-child");
-		console.log("Medium style bar found, adding close button...");
-		var closeImg = chrome.extension.getURL("images/high-contrast-dialog-close.svg");
-		$bottomBarFirstChild.append('<a href="#" id="mb-footer-close-button-link"><img src="' + closeImg + '" style="height:16px; width:16px;margin-left:5px;" alt="Close footer" title="Close footer"></a>');
-		$("#mb-footer-close-button-link").click(function(e){
-			e.preventDefault();
-			$bottomBar.hide("slow");
-		});
-	}
+  var $bottomBar = $(".u-fixed.u-bottom0");
+  if ($bottomBar.length > 0) {
+    var $bottomBarFirstChild = $bottomBar.find(">:first-child");
+    console.log("Medium style bar found, adding close button...");
+    var closeImg = chrome.extension.getURL("images/high-contrast-dialog-close.svg");
+    $bottomBarFirstChild.append('<style type="text/css">#mb-footer-close-button:hover {cursor:pointer}</style><img id="mb-footer-close-button" src="' + closeImg + '" style="height:16px; width:16px;margin-left:5px;" alt="Close footer" title="Close footer">');
+
+    $("#mb-footer-close-button").click(function() {
+      $bottomBar.hide("slow");
+    });
+  }
 });

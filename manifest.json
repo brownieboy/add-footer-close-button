@@ -8,7 +8,7 @@
 		{
 			"matches": ["https://medium.com/*", "https://medium.mybridge.co/*", "https://hackernoon.com/*", "https://blog.expo.io/*", "https://medium.freecodecamp.com/*"],
 			"css": ["css/app.css"],
-			"js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/libs/parseurl.js", "javascript/libs/waitForKeyElements.js", "javascript/app.js"]
+			"js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
 		}
 	],
 	"background": {
