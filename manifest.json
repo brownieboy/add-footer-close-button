@@ -13,7 +13,7 @@
       "https://medium.freecodecamp.com/*",
       "https://blog.madebywindmill.com/*",
       "https://shift.infinite.red/*",
-      "https://hashnode.com//*",
+      "https://hashnode.com/*"
     ],
     "css": ["css/app.css"],
     "js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
@@ -29,7 +29,7 @@
     "https://blog.expo.io/*",
     "https://medium.freecodecamp.com/*",
     "https://shift.infinite.red/*",
-    "https://hashnode.com//*",
+    "https://hashnode.com/*"
   ],
   "icons": {
     "48": "images/high-contrast-dialog-close48.png",
