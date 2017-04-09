@@ -7,6 +7,9 @@
 $(function() {
   var $bottomBar = $(".u-fixed.u-bottom0");
   if ($bottomBar.length > 0) {
+    $bottomBar = $(".jn-content");
+  }
+  if ($bottomBar.length > 0) {
     var $bottomBarFirstChild = $bottomBar.find(">:first-child");
     console.log("Medium style bar found, adding close button...");
     var closeImg = chrome.extension.getURL("images/high-contrast-dialog-close.svg");
