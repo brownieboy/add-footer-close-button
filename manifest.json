@@ -1,23 +1,35 @@
 {
   "name": "Add Footer Close Button",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "manifest_version": 2,
   "description": "Add a close button to Medium-style footer bars.",
-  "web_accessible_resources": ["javascript/libs/jquery-1.10.2.min.map", "images/high-contrast-dialog-close.svg"],
-  "content_scripts": [{
-    "matches": [
-      "https://medium.com/*",
-      "https://medium.mybridge.co/*",
-      "https://hackernoon.com/*",
-      "https://blog.expo.io/*",
-      "https://medium.freecodecamp.com/*",
-      "https://blog.madebywindmill.com/*",
-      "https://shift.infinite.red/*",
-      "https://hashnode.com/*"
-    ],
-    "css": ["css/app.css"],
-    "js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
-  }],
+  "web_accessible_resources": [
+    "javascript/libs/jquery-1.10.2.min.map",
+    "images/high-contrast-dialog-close.svg"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://medium.com/*",
+        "https://medium.mybridge.co/*",
+        "https://hackernoon.com/*",
+        "https://blog.expo.io/*",
+        "https://medium.freecodecamp.com/*",
+        "https://blog.madebywindmill.com/*",
+        "https://shift.infinite.red/*",
+        "https://hashnode.com/*",
+        "https://notes.devlabs.bg/*",
+        "https://www.codementor.io/*",
+        "https://blog.nrwl.io/*",
+        "https://blog.percy.io/*",
+        "https://blog.callstack.io/*",
+        "https://dev-blog.apollodata.com/*",
+        "https://launchdrawer.com/*"
+      ],
+      "css": ["css/app.css"],
+      "js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
+    }
+  ],
   "background": {
     "scripts": ["javascript/background.js"]
   },
@@ -29,7 +41,14 @@
     "https://blog.expo.io/*",
     "https://medium.freecodecamp.com/*",
     "https://shift.infinite.red/*",
-    "https://hashnode.com/*"
+    "https://hashnode.com/*",
+    "https://notes.devlabs.bg/*",
+    "https://www.codementor.io/*",
+    "https://blog.nrwl.io/*",
+    "https://blog.percy.io/*",
+    "https://blog.callstack.io/*",
+    "https://dev-blog.apollodata.com/*",
+    "https://launchdrawer.com/*"
   ],
   "icons": {
     "48": "images/high-contrast-dialog-close48.png",

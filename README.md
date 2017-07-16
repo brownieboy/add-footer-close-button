@@ -4,7 +4,7 @@ I'm a big fan of the Medium publishing platform, but hate the way that it (and i
 
 So, I put together this Chrome extension to add a button that hides that footer bar whenever it detects one.  That's all it does.  There's no options.
 
-It currently works on the following Medium-style sites:
+It currently works on the following Medium-style sites (list not exclusive):
 * medium.com
 * medium.mybridge.co
 * hackernoon.com
@@ -13,6 +13,7 @@ It currently works on the following Medium-style sites:
 * blog.madebywindmill.com
 * shift.infinite.red
 * hashnode.com
+* codementor.com
 
 I'll add more offshoot sites as I come across them.  Report via the Chrome Web Store if you want more
 
