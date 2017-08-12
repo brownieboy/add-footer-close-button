@@ -1,6 +1,6 @@
 {
   "name": "Add Footer Close Button",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "manifest_version": 2,
   "description": "Add a close button to Medium-style footer bars.",
   "web_accessible_resources": [
@@ -24,7 +24,11 @@
         "https://blog.percy.io/*",
         "https://blog.callstack.io/*",
         "https://dev-blog.apollodata.com/*",
-        "https://launchdrawer.com/*"
+        "https://launchdrawer.com/*",
+        "https://blog.codeinfuse.com",
+        "https://codeburst.io",
+        "https://blog.semanticscholar.org",
+        "https://blog.hellojs.org"
       ],
       "css": ["css/app.css"],
       "js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
@@ -48,7 +52,11 @@
     "https://blog.percy.io/*",
     "https://blog.callstack.io/*",
     "https://dev-blog.apollodata.com/*",
-    "https://launchdrawer.com/*"
+    "https://launchdrawer.com/*",
+    "https://blog.codeinfuse.com/*",
+    "https://codeburst.io/*",
+    "https://blog.semanticscholar.org/*",
+    "https://blog.hellojs.org/*"
   ],
   "icons": {
     "48": "images/high-contrast-dialog-close48.png",
