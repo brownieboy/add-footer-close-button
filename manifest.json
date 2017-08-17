@@ -1,6 +1,6 @@
 {
   "name": "Add Footer Close Button",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "manifest_version": 2,
   "description": "Add a close button to Medium-style footer bars.",
   "web_accessible_resources": [
@@ -25,10 +25,10 @@
         "https://blog.callstack.io/*",
         "https://dev-blog.apollodata.com/*",
         "https://launchdrawer.com/*",
-        "https://blog.codeinfuse.com",
-        "https://codeburst.io",
-        "https://blog.semanticscholar.org",
-        "https://blog.hellojs.org"
+        "https://blog.codeinfuse.com/*",
+        "https://codeburst.io/*",
+        "https://blog.semanticscholar.org/*",
+        "https://blog.hellojs.org/*"
       ],
       "css": ["css/app.css"],
       "js": ["javascript/libs/jquery-1.10.2.min.js", "javascript/app.js"]
